@@ -40,7 +40,7 @@
  Ta được ```Flag{m4g1c@l_h34d3r_xD}```   
   <a href="https://ibb.co/FHgssS5"><img src="https://i.ibb.co/FHgssS5/image.png" alt="image" border="0"></a> 
  
- <span style='font-size:100px;'>&#128020;</span>[JS B**p B**p](http://chal4.web.letspentest.org/)
+ <span style='font-size:100px;'>&#128020;</span>[JS Beep Beep](http://chal4.web.letspentest.org/)
  
  
  
