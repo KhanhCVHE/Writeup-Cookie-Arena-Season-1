@@ -12,7 +12,15 @@
 <span style='font-size:100px;'>&#128020;</span> [Forensic](https://github.com/chkhanh/Writeup-Cookie-Arena-Season-1#Forensic)  
 <span style='font-size:100px;'>&#128020;</span> [Misc](https://github.com/chkhanh/Writeup-Cookie-Arena-Season-1#Misc)  
 ## Web-Basic
-  <h5>Hân Hoan</h5>
-  <a href="https://ibb.co/WP2LTfr"><img src="https://i.ibb.co/WP2LTfr/image.png" alt="image" border="0" /></a>
+<span style='font-size:100px;'>&#128020;</span> Hân Hoan
   
-  Đọc đề bài đã có hint là bài này sẽ liên quan đến cookie ta sẽ thử username, password bất kỳ để xem có gì.
+  Đọc đề bài đã có hint là bài này sẽ liên quan đến cookie ta sẽ thử username, password bất kỳ để xem có gì nào.
+  
+  <a href="https://ibb.co/RYWwZgW"><img src="https://i.ibb.co/RYWwZgW/image.png" alt="image" border="0"></a>
+  
+  Ok "You are not CookieHanHoan!" Bắt đầu sửa cookie bằng EditThisCookie từ Guest thành CookieHanHoan ta sẽ có Flag đầu tiên.  
+    <span style='font-size:100px;'>&#128073;</span> Flag{Cookies_Yummy_Cookies_Yammy!}   
+    <a href="https://ibb.co/kmMPB3L"><img src="https://i.ibb.co/kmMPB3L/image.png" alt="image" border="0"></a>   
+ 
+ <span style='font-size:100px;'>&#128020;</span> 
+  
