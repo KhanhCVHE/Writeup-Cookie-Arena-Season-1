@@ -1,3 +1,3 @@
 # Writeup-Cookie-Arena-Season 1 
 
-Write-up Cookie Arena
+Write-up of D4n0
