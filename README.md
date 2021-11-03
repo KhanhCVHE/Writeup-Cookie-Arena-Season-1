@@ -14,15 +14,24 @@
 <span style='font-size:100px;'>&#128020;</span> [Forensic](https://github.com/chkhanh/Writeup-Cookie-Arena-Season-1#Forensic)  
 <span style='font-size:100px;'>&#128020;</span> [Misc](https://github.com/chkhanh/Writeup-Cookie-Arena-Season-1#Misc)  
 ## Web-Basic
-<span style='font-size:100px;'>&#128020;</span> Hân Hoan
+<span style='font-size:100px;'>&#128020;</span> [Hân Hoan](http://chal5.web.letspentest.org/)
   
   Đọc đề bài đã có hint là bài này sẽ liên quan đến cookie ta sẽ thử username, password bất kỳ để xem có gì nào.
   
   <a href="https://ibb.co/RYWwZgW"><img src="https://i.ibb.co/RYWwZgW/image.png" alt="image" border="0"></a>
   
   Ok "You are not CookieHanHoan!" Bắt đầu sửa cookie bằng EditThisCookie từ Guest thành CookieHanHoan ta sẽ có Flag đầu tiên.  
-    <span style='font-size:100px;'>&#128073;</span> Flag{Cookies_Yummy_Cookies_Yammy!}   
-    <a href="https://ibb.co/kmMPB3L"><img src="https://i.ibb.co/kmMPB3L/image.png" alt="image" border="0"></a>   
+<a href="https://ibb.co/kmMPB3L"><img src="https://i.ibb.co/kmMPB3L/image.png" alt="image" border="0"></a> 
+
+```Flag{Cookies_Yummy_Cookies_Yammy!}```       
  
- <span style='font-size:100px;'>&#128020;</span> 
+ <span style='font-size:100px;'>&#128020;</span> [Header 401](http://chal3.web.letspentest.org/)     
+ 
+ Ta sẽ dùng Burp Suite để lấy các Request từ website  
+  <a href="https://ibb.co/3krk86w"><img src="https://i.ibb.co/3krk86w/image.png" alt="image" border="0"></a>  
+ Tiếp theo tiến hành Send to repeater để chỉnh sửa Request và gửi nó đi.  
+ <a href="https://ibb.co/VwqqWK1"><img src="https://i.ibb.co/VwqqWK1/image.png" alt="image" border="0"></a>  
+ Tại phần Repeater ta tiến hành chỉnh sửa ```GET thành POST và thêm một header: Authorization: Basic Z2Fjb25sb250b246Y29va2llaGFuaG9hbg=='''  
+ 
+  
   
