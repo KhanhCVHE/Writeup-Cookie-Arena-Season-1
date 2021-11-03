@@ -31,7 +31,8 @@
   <a href="https://ibb.co/3krk86w"><img src="https://i.ibb.co/3krk86w/image.png" alt="image" border="0"></a>  
  Tiếp theo tiến hành Send to repeater để chỉnh sửa Request và gửi nó đi.  
  <a href="https://ibb.co/VwqqWK1"><img src="https://i.ibb.co/VwqqWK1/image.png" alt="image" border="0"></a>  
- Tại phần Repeater ta tiến hành chỉnh sửa ```GET thành POST và thêm một header: Authorization: Basic Z2Fjb25sb250b246Y29va2llaGFuaG9hbg=='''  
+ Tại phần Repeater ta tiến hành chỉnh sửa  
+ ```GET thành POST và thêm một header: Authorization: Basic Z2Fjb25sb250b246Y29va2llaGFuaG9hbg=='''  
  
   
   
