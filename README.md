@@ -32,7 +32,13 @@
  Tiếp theo tiến hành Send to repeater để chỉnh sửa Request và gửi nó đi.  
  <a href="https://ibb.co/VwqqWK1"><img src="https://i.ibb.co/VwqqWK1/image.png" alt="image" border="0"></a>  
  Tại phần Repeater ta tiến hành chỉnh sửa  
- ```GET thành POST và thêm một header: Authorization: Basic Z2Fjb25sb250b246Y29va2llaGFuaG9hbg=='''  
+     ```GET thành POST và thêm một header: Authorization: Basic Z2Fjb25sb250b246Y29va2llaGFuaG9hbg==```   
+ Sau khi sửa và thêm header xong ta bấm vào Send để nhận về Response 
+ 
+ <a href="https://ibb.co/zmJdY6K"><img src="https://i.ibb.co/zmJdY6K/image.png" alt="image" border="0"></a>
+ 
+ Ta được ```Flag{m4g1c@l_h34d3r_xD}```   
+ <a href="https://ibb.co/zmJdY6K"><img src="https://i.ibb.co/zmJdY6K/image.png" alt="image" border="0"></a><a href="https://ibb.co/mCPmZtK"><img src="https://i.ibb.co/mCPmZtK/image.png" alt="image" border="0"></a>   
  
   
   
