@@ -33,16 +33,36 @@
  <a href="https://ibb.co/VwqqWK1"><img src="https://i.ibb.co/VwqqWK1/image.png" alt="image" border="0"></a>  
  Tại phần Repeater ta tiến hành chỉnh sửa  
      ```GET thành POST và thêm một header: Authorization: Basic Z2Fjb25sb250b246Y29va2llaGFuaG9hbg==```   
- Sau khi sửa và thêm header xong ta bấm vào Send để nhận về Response 
+ Sau khi sửa và thêm header xong ta bấm vào Send để nhận về Response.
  
  <a href="https://ibb.co/zmJdY6K"><img src="https://i.ibb.co/zmJdY6K/image.png" alt="image" border="0"></a>
  
  Ta được ```Flag{m4g1c@l_h34d3r_xD}```   
   <a href="https://ibb.co/FHgssS5"><img src="https://i.ibb.co/FHgssS5/image.png" alt="image" border="0"></a> 
  
- <span style='font-size:100px;'>&#128020;</span>[JS Beep Beep](http://chal4.web.letspentest.org/)
+ <span style='font-size:100px;'>&#128020;</span>[JS Beep Beep](http://chal4.web.letspentest.org/)  
  
  
  
+ <span style='font-size:100px;'>&#128020;</span>[Impossible](http://chal7.web.letspentest.org/)  
+  Ta đọc source bài này ta sẽ thấy 2 password ở phần <script>.  
+    
+  ```<script>
+function checkPass()
+{
+	var password = document.getElementById('password').value;
+	if (btoa(password.replace("cookiehanhoan", "")) == "Y29va2llaGFuaG9hbg==") {
+		window.setTimeout(function() {
+			window.location.assign('check.php?password=' + password);
+		}, 500);
+	}
+}
+</script>
+```
+    
+  Sau khi decrypt đoạn mã base64 ta được thêm 1 password là "cookiehanhoan" và suy từ phần script trên ta được password hoàn chỉnh là  
+  ```ccookiehanhoanookiehanhoan```  
+  Nhập vào và lấy Flag nào!  
+     ```Flag{Javascript_is_not_safe???}```  
   
-  
+  <span style='font-size:100px;'>&#128020;</span>
