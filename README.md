@@ -82,4 +82,9 @@ function checkPass()
   Nhập vào và lấy Flag nào!  
      ```Flag{Javascript_is_not_safe???}```  
   
-  <span style='font-size:100px;'>&#128020;</span>
+  <span style='font-size:100px;'>&#128020;</span>[Infinite Loop](http://chal6.web.letspentest.org/)  
+Đọc kỹ "can thiệp dòng chảy" bài này thì ta vẫn dùng Burp Suite để làm. Sau khi login vào hệ thống với user và pass bất khì ta thấy 1 loại url với đuôi là "id=" vậy ta có thể suy ra đó là dòng chảy mà đề bài nhắc đến.   
+<a href="https://ibb.co/dWWqdF8"><img src="https://i.ibb.co/dWWqdF8/image.png" alt="image" border="0"></a>    
+Ta tiến hành Send to Intruder để bắt đầu brute-force cái id này.  
+<a href="https://ibb.co/QXW5cX8"><img src="https://i.ibb.co/QXW5cX8/image.png" alt="image" border="0"></a>  
+<h1>Updating...</h1>
