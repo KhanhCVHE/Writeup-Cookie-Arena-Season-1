@@ -34,7 +34,7 @@
  ![image](https://user-images.githubusercontent.com/75576279/140270444-7d0a2180-ea5f-4992-a6e7-f36050c5c5bc.png)  
  Tại phần Repeater ta tiến hành chỉnh sửa  
      ```GET thành POST và thêm một header: Authorization: Basic Z2Fjb25sb250b246Y29va2llaGFuaG9hbg==``` 
-     (Giải thích cho mọi người rằng sao lại dùng "Authorizatinon: Basic" Basic Auth là cơ chế xác thực đơn giản nhất của một ứng dụng web. Cách hoạt động của Basic Auth là gửi chính username + password của người dùng theo mỗi request "Z2Fjb25sb250b246Y29va2llaGFuaG9hbg==" là "gaconlonton:cookiehanhoan")
+     (Giải thích cho mọi người rằng sao lại dùng "Authorizatinon: Basic" Basic Auth là cơ chế xác thực đơn giản nhất của một ứng dụng web. Cách hoạt động của Basic Auth là gửi chính username + password của người dùng theo mỗi request "Z2Fjb25sb250b246Y29va2llaGFuaG9hbg==" là "gaconlonton:cookiehanhoan")  
  Sau khi sửa và thêm header xong ta bấm vào Send để nhận về Response.
  
  ![image](https://user-images.githubusercontent.com/75576279/140270475-7c4814e4-b45c-4c8c-932a-bb1cf1d6d034.png)
