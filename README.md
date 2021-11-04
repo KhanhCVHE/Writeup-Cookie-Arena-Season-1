@@ -102,6 +102,85 @@ Flag được giấu ở đây ```Flag{N0_B0T_@ll0w}```
 Flag phần này được giấu ở source để mở phần này ta bấm Ctrl + U hoặc bấm F12 để mở Tools dev cũng có thể đọc được.  
 ![image](https://user-images.githubusercontent.com/75576279/140272119-f7663cf5-52b1-40c5-b7d1-59afc544e8fc.png)
 ```Flag{Web_Sause_Delicious}```  
-<h1>Updating...</h1>	
+## Web Exploitation  
+<span style='font-size:100px;'>&#128020;</span>[XSS](http://chal12.web.letspentest.org/)  
+
+
+
+
+
+
+<span style='font-size:100px;'>&#128020;</span>[XSS Filter](http://chal15.web.letspentest.org/)  
+
+
+
+
+
+<span style='font-size:100px;'>&#128020;</span>[Ét Quy Eo](http://chal13.web.letspentest.org/)
+
+
+
+
+<span style='font-size:100px;'>&#128020;</span>[SQL Filter](http://chal14.web.letspentest.org/)
+
+
+
+<span style='font-size:100px;'>&#128020;</span>[Misconfiguration](http://chal16.web.letspentest.org/)
+
 	
+
+<span style='font-size:100px;'>&#128020;</span>[Paparazzi](http://chal8.web.letspentest.org/)
+
+
+
+
+<span style='font-size:100px;'>&#128020;</span>[Gatling gun](http://chal9.web.letspentest.org/)
+
+
+
+
+
+<span style='font-size:100px;'>&#128020;</span>[The maze runner](http://chal10.web.letspentest.org/)
+
+
+
+
+<span style='font-size:100px;'>&#128020;</span>[ID'OR1=1](http://chal11.web.letspentest.org/)
+
+
+
+
+## Programming  
+<span style='font-size:100px;'>&#128020;</span>[SUM()]  
+
+Bài này ta được cho code sẵn rồi chỉ get ip, port và thêm 1 đoạn code để tính tổng và chạy file python đó là ra Flag thôi.
+```
+arr = line.split(' ')
+                arr.remove('')
+                return sum([int(i) for i in arr]
+```  
+![image](https://user-images.githubusercontent.com/75576279/140387179-2ab02a1a-509d-47d1-aaed-2208c61b1c3c.png)  
+![image](https://user-images.githubusercontent.com/75576279/140387613-c53731d3-0d2a-4b46-8999-9802d30a2475.png)  
+```Flag{1plust1_1s_2_qu1ck_mafth}```  
+<span style='font-size:100px;'>&#128020;</span>[Pro102]  
+Bài này mình viết code để giải và chạy file đó thôi.
+![image](https://user-images.githubusercontent.com/75576279/140390479-15fa2a99-b65e-4be8-9496-eb5b500540b2.png)  
+```
+ while True:
+        title = receive_one_line(s)
+        print(title)
+        num_list = receive_one_line(s)
+        print(num_list)
+        result = bac2(num_list)
+        print(bac2(num_list))
+        caculator = receive_one_line(s)
+        print(caculator)
+        send_one_line(s,result)
+        corr = receive_one_line(s)
+        print(corr)```
+
+```Flag{2fast2fur10us}```
+<h1>Uppdating...</h1>
+
+
 
