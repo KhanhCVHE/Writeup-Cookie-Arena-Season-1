@@ -1,6 +1,6 @@
 ## Writeup-Cookie-Arena-Season 1
 
-ĐÂY LÀ WRITE-UP CỦA MỘT PẠN TRẺ CHÂU ĐƯỢC HUẤN LUYỆN TẠI FPTU CẢM ƠN VÌ ĐÃ ĐỌC VÀ HÃY GÓP Ý VỚI MÌNH NHÉ !!!
+ĐÂY LÀ WRITE-UP CỦA MỘT PẠN TRẺ CHÂU CẢM ƠN VÌ ĐÃ ĐỌC VÀ HÃY GÓP Ý VỚI MÌNH NHÉ !!!
 
 
 <a href="https://ibb.co/bFTLP9T"><img src="https://i.ibb.co/gdNw3KN/KB.jpg" alt="KB" border="0"></a>
