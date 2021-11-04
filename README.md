@@ -41,7 +41,24 @@
   <a href="https://ibb.co/FHgssS5"><img src="https://i.ibb.co/FHgssS5/image.png" alt="image" border="0"></a> 
  
  <span style='font-size:100px;'>&#128020;</span>[JS Beep Beep](http://chal4.web.letspentest.org/)  
- 
+ Đọc đề bài thì có lẽ bài này liên quan đến JS ta phát hiện ra có 4 phần JS đều đã được mã hóa, ta sẽ phải chuyển sang dạng eval nó bằng công cụ "JavaScript Deobfuscator and Unpacker"  
+ <a href="https://ibb.co/682jFMm"><img src="https://i.ibb.co/682jFMm/image.png" alt="image" border="0"></a>
+<a href="https://ibb.co/FKv0G4F"><img src="https://i.ibb.co/FKv0G4F/image.png" alt="image" border="0"></a>  
+```
+Username=cookiehanhoan
+Password=sup3rSercur3p@ssW0rd
+```
+ Sau khi đọc được code phần role ta thấy nó có 5 ký tự và đó là bảng mã ASCII  
+ <a href="https://ibb.co/GQyPprF"><img src="https://i.ibb.co/GQyPprF/image.png" alt="image" border="0"></a>  
+ ```
+ role.charCodeAt(0) != 64
+ role.charCodeAt(1) != 100
+ role.charCodeAt(2) != 109
+ role.charCodeAt(3) != 105
+ role.charCodeAt(4) != 78
+ -->Role=@dmiN
+ ```
+ Sau khi đăng nhập ta được Flag bài này ```Flag{JAV-ascript_F*ck} ```  
  
  
  <span style='font-size:100px;'>&#128020;</span>[Impossible](http://chal7.web.letspentest.org/)  
