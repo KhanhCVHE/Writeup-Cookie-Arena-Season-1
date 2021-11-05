@@ -162,7 +162,9 @@ arr = line.split(' ')
 ![image](https://user-images.githubusercontent.com/75576279/140387179-2ab02a1a-509d-47d1-aaed-2208c61b1c3c.png)  
 ![image](https://user-images.githubusercontent.com/75576279/140387613-c53731d3-0d2a-4b46-8999-9802d30a2475.png)  
 ```Flag{1plust1_1s_2_qu1ck_mafth}```  
+
 <span style='font-size:100px;'>&#128020;</span>[Pro102]  
+
 Bài này mình viết code để giải và chạy file đó thôi.  
 ![image](https://user-images.githubusercontent.com/75576279/140390479-15fa2a99-b65e-4be8-9496-eb5b500540b2.png)  
 ```
